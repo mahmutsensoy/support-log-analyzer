@@ -1,0 +1,23 @@
+2024-06-20 08:00:01 INFO  [Baslatma] Uygulama acildi - Kullanici: mahmut.sensoy
+2024-06-20 08:00:03 INFO  [Oturum] Giris basarili - departman: IT Destek
+2024-06-20 08:02:15 INFO  [Ag] Internet baglantisi kontrol edildi - OK
+2024-06-20 08:05:10 WARN  [Yazici] Yazici yanit vermiyor - kullanici: mahmut.sensoy
+2024-06-20 08:05:11 WARN  [Yazici] Varsayilan yazici offline gorunuyor
+2024-06-20 08:07:44 INFO  [Outlook] Senkronizasyon basladi
+2024-06-20 08:10:22 ERROR [Outlook] Senkronizasyon hatasi - posta kutusu erisilemiyor
+2024-06-20 08:10:23 ERROR System.IO.IOException: Ag yolu bulunamadi
+2024-06-20 08:10:23 ERROR    at MailClient.SyncService.PullMessages()
+2024-06-20 08:10:23 ERROR Stack Trace: MailClient.SyncService.PullMessages() satir 142
+2024-06-20 08:12:00 INFO  [VPN] Baglanti deneniyor...
+2024-06-20 08:12:45 WARN  [VPN] Baglanti kesildi - kullanici: mahmut.sensoy
+2024-06-20 08:13:02 INFO  [VPN] Yeniden baglandi
+2024-06-20 08:20:11 ERROR [Veritabani] Baglanti zaman asimina ugradi
+2024-06-20 08:20:11 ERROR System.Data.SqlClient.SqlException: Timeout expired. The timeout period elapsed.
+2024-06-20 08:20:12 ERROR    at App.Data.DatabaseContext.Connect()
+2024-06-20 08:25:33 ERROR [Uygulama] NullReferenceException: Object reference not set to an instance of an object.
+2024-06-20 08:25:33 ERROR    at App.Services.UserService.GetProfile(String username)
+2024-06-20 08:30:00 WARNING Disk alani %90 dolu - kullanici: mahmut.sensoy
+2024-06-20 08:35:18 INFO  [Ticket] Destek talebi #1042 olusturuldu
+2024-06-20 08:40:55 CRITICAL [Sistem] Outlook senkronizasyonu durduruldu - manuel mudahale gerekli
+2024-06-20 09:00:00 INFO  [Ticket] Talep #1042 kapatildi - atanan: mahmut.sensoy
+2024-06-20 09:00:01 INFO  [Kapanis] Oturum sonlandirildi
