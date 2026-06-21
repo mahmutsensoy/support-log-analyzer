@@ -14,22 +14,9 @@ C# ve Windows Forms ile yazdım. Amacım destek tarafında log okuma ve temel ha
 
 Filtre kutucuklarından hangi tür satırların listeleneceğini açıp kapatabilirsiniz.
 
-## Ekran görüntüleri
+## Görünüm
 
-Görüntüleri `docs/screenshots/` klasörüne koyun. README'de kullanılacak dosya adları:
-
-| Dosya adı | Ne çekmeli? |
-|-----------|-------------|
-| `ana-ekran.png` | Analiz sonucu dolu ana pencere (özet + liste görünsün) |
-| `dosya-sec.png` | (İsteğe bağlı) Dosya seçme penceresi |
-| `rapor.png` | (İsteğe bağlı) Kaydedilen rapor veya kaydetme ekranı |
-
-Görüntüleri ekledikten sonra bu bölümün altına şunu yazmanız yeterli:
-
-```markdown
-![Ana ekran](docs/screenshots/ana-ekran.png)
-*Ana ekran: ornek-destek.log analiz edildikten sonra*
-```
+Log dosyası seçilip analiz edildikten sonra solda toplam satır ve hata sayıları, sağda filtreler, altta da eşleşen satırlar listeleniyor. ERROR satırları kırmızı, WARN satırları sarı tonunda gösteriliyor.
 
 ## Nasıl çalıştırılır?
 
@@ -97,11 +84,10 @@ Büyük/küçük harf fark etmiyor. INFO satırları tek başına listelenmiyor;
 ```
 support-log-analyzer/
 ├── support-log-analyzer.sln
-├── SupportLogAnalyzer/        → uygulama kodu
-├── docs/
-│   └── screenshots/           → README için ekran görüntüleri
-└── samples/
-    └── ornek-destek.log       → deneme için örnek log
+├── SupportLogAnalyzer/
+├── samples/
+│   └── ornek-destek.log
+└── README.md
 ```
 
 ## Teknoloji
