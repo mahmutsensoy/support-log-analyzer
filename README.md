@@ -16,7 +16,15 @@ Filtre kutucuklarından hangi tür satırların listeleneceğini açıp kapatabi
 
 ## Görünüm
 
-Log dosyası seçilip analiz edildikten sonra solda toplam satır ve hata sayıları, sağda filtreler, altta da eşleşen satırlar listeleniyor. ERROR satırları kırmızı, WARN satırları sarı tonunda gösteriliyor.
+`ornek-destek.log` analiz edildikten sonra ana ekran:
+
+![Ana ekran](docs/screenshots/SupportLogAnalyzer_AJZEcqb7sf.png)
+
+Visual Studio'da proje yapısı:
+
+![Proje yapısı](docs/screenshots/devenv_VFvqLlA5jy.png)
+
+Solda özet sayılar, sağda filtreler, altta eşleşen log satırları listeleniyor. ERROR satırları kırmızı, WARN satırları sarı tonunda gösteriliyor.
 
 ## Nasıl çalıştırılır?
 
@@ -87,6 +95,8 @@ support-log-analyzer/
 ├── SupportLogAnalyzer/
 ├── samples/
 │   └── ornek-destek.log
+├── docs/
+│   └── screenshots/
 └── README.md
 ```
 
