@@ -18,11 +18,11 @@ Filtre kutucuklarından hangi tür satırların listeleneceğini açıp kapatabi
 
 `ornek-destek.log` analiz edildikten sonra ana ekran:
 
-![Ana ekran](docs/screenshots/SupportLogAnalyzer_AJZEcqb7sf.png)
+![Ana ekran](docs/SupportLogAnalyzer_AJZEcqb7sf.jpg)
 
 Visual Studio'da proje yapısı:
 
-![Proje yapısı](docs/screenshots/devenv_VFvqLlA5jy.png)
+![Proje yapısı](docs/devenv_VFvqLlA5jy.jpg)
 
 Solda özet sayılar, sağda filtreler, altta eşleşen log satırları listeleniyor. ERROR satırları kırmızı, WARN satırları sarı tonunda gösteriliyor.
 
